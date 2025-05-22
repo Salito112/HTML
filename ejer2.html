@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Completa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head> 
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>Página Integrada</h1>
+  </header>
+
+  <!-- NAVEGACIÓN -->
+  <nav>
+    <ul style="list-style: none; display: flex; gap: 20px; background: #eee; padding: 10px;">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#"><i class="fas fa-envelope"></i> Contacto</a></li>
+      <li><a href="#"><i class="fas fa-search"></i> Acerca de</a></li>
+    </ul>
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+
+    <!-- EJERCICIO 1 -->
+    <section>
+      <h2> Multimedia y Formulario</h2>
+
+      <article>
+        <h3>🎥 Video de Presentación</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Fae0QrnONtg?si=VH_tCja5I4NE4Ldy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          Tu navegador no soporta video HTML5.
+        </video>
+      </article>
+
+      <article>
+        <h3>📋 Formulario de Registro</h3>
+        <form>
+          <input type="text" name="nombre" placeholder="Nombre" required><br><br>
+          <input type="email" name="email" placeholder="Correo electrónico" required><br><br>
+          <input type="number" name="edad" placeholder="Edad" required><br><br>
+          <button type="submit">Enviar</button>
+        </form>
+      </article>
+
+      <article>
+        <h3>🗺️ Mapa de Imagen</h3>
+        <img src="https://via.placeholder.com/400x200" alt="Mapa" usemap="#mapaEjemplo">
+        <map name="mapaEjemplo">
+          <area shape="rect" coords="0,0,200,200" href="https://www.google.com" target="_blank" alt="Google">
+        </map>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- EJERCICIO 2 -->
+    <section>
+      <h2>Tabla y Listas</h2>
+
+      <h3>📅 Horario Semanal</h3>
+      <table style="border: 2px solid black; background-color: #f0f0f0; width: 100%;" aria-label="Horario semanal">
+        <caption>Horario semanal de clases</caption>
+        <tr>
+          <th>Hora/Día</th>
+          <th>Lunes</th>
+          <th>Miércoles</th>
+          <th>Viernes</th>
+        </tr>
+        <tr>
+          <th>8:00 - 9:00</th>
+          <td>Matemáticas</td>
+          <td>Historia</td>
+          <td>Biología</td>
+        </tr>
+        <tr>
+          <th>9:00 - 10:00</th>
+          <td>Inglés</td>
+          <td>Física</td>
+          <td>Arte</td>
+        </tr>
+        <tr>
+          <th>10:00 - 11:00</th>
+          <td>Computación</td>
+          <td>Química</td>
+          <td>Deportes</td>
+        </tr>
+        <tr>
+          <th>11:00 - 12:00</th>
+          <td>Geografía</td>
+          <td>Matemáticas</td>
+          <td>Ética</td>
+        </tr>
+      </table>
+
+      <h3>📚 Lista de Cursos y Temas</h3>
+      <ul>
+        <li>Matemáticas
+          <ul>
+            <li>Álgebra</li>
+            <li>Geometría</li>
+          </ul>
+        </li>
+        <li>Ciencias
+          <ul>
+            <li>Física</li>
+            <li>Biología</li>
+          </ul>
+        </li>
+        <li>Lenguas
+          <ul>
+            <li>Español</li>
+            <li>Inglés</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- EJERCICIO 3 -->
+    <section>
+      <h2>Navegación, Iconos y Citas</h2>
+
+      <h3>💬 Cita Inspiradora</h3>
+      <blockquote cite="https://www.frasescelebrex.com">
+        "La educación es el arma más poderosa que puedes usar para cambiar el mundo."
+      </blockquote>
+
+      <p>
+        <strong>Importante:</strong> Esta cita de <em>Nelson Mandela</em> resalta el valor de la <mark>educación</mark>.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p>© 2025 Mi Sitio Web - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
