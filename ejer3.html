@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Proyecto Web</title>
+</head>
+<body>
+
+  <!-- 1. Mi primera página HTML -->
+  <h1>Hola Mundo</h1>
+  <p>Esta es mi primera página en HTML.</p>
+
+  <!-- 2. Listas -->
+  <h2>Frutas favoritas</h2>
+  <ul>
+    <li>Fresa</li>
+    <li>Kiwi</li>
+    <li>Mango</li>
+  </ul>
+
+  <h2>Cómo preparar café</h2>
+  <ol>
+    <li>Hervir agua</li>
+    <li>Agregar café</li>
+    <li>Revolver</li>
+    <li>Servir</li>
+  </ol>
+
+  <!-- 3. Enlaces -->
+  <h2>Enlaces</h2>
+  <a href="https://www.google.com" target="_blank">Ir a Google</a><br>
+  <a href="contacto.html">Ir a Contacto</a><br>
+  <a href="https://github.com" target="_blank">
+    <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" alt="GitHub" width="200">
+  </a>
+
+  <!-- 4. Imagen -->
+  <h2>Imagen desde internet</h2>
+  <img src="https://tse4.mm.bing.net/th?id=OIP.AWbOxnriYA1CdtKp4lOzCAHaEK&pid=Api&P=0&h=180" alt="Imagen ejemplo">
+
+  <!-- 5. Video -->
+  <h2>Video de YouTube</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rsTLyukvxGU?si=2IF2sdhPKqMTT0Al" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <!-- 6. Tabla -->
+  <h2>Tabla de personas</h2>
+  <table border="1">
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Ciudad</th>
+    </tr>
+    <tr>
+      <td>Juan</td>
+      <td>25</td>
+      <td>Medellin</td>
+    </tr>
+    <tr>
+      <td>Ana</td>
+      <td>30</td>
+      <td>Cali</td>
+    </tr>
+    <tr>
+      <td>Diego/td>
+      <td>22</td>
+      <td>Bogota</td>
+    </tr>
+  </table>
+
+  <!-- 7. Navegación -->
+  <nav>
+    <h2>Menú</h2>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- 8. Formulario de contacto -->
+  <h2>Formulario de Contacto</h2>
+  <form>
+    Nombre: <input type="text" name="nombre"><br>
+    Correo: <input type="email" name="correo"><br>
+    Mensaje: <br>
+    <textarea name="mensaje"></textarea><br>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- 9. Formulario con varios campos -->
+  <h2>Formulario Completo</h2>
+  <form>
+    Nombre: <input type="text" name="nombre"><br>
+    Correo: <input type="email" name="correo"><br>
+    Contraseña: <input type="password" name="password"><br>
+    Edad: <input type="number" name="edad"><br>
+    Fecha de nacimiento: <input type="date" name="fecha"><br>
+    Sexo: 
+    <input type="radio" name="sexo" value="hombre"> Hombre
+    <input type="radio" name="sexo" value="mujer"> Mujer<br>
+    Ciudad:
+    <select name="ciudad">
+      <option value="Medellin">Medellin</option>
+      <option value="Cali">Cali</option>
+      <option value="Bogota">Bogota</option>
+    </select><br>
+    <input type="checkbox" name="terminos"> Acepto los términos<br>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- 10. Página de perfil personal -->
+  <h2>Perfil Personal</h2>
+  <img src="salo.jpg" alt="Foto de perfil" width="150"><br>
+  <p>Soy desarrollador web con pasión por el diseño y la programación.</p>
+  <h3>Hobbies:</h3>
+  <ul>
+    <li>volleyball</li>
+    <li>Programar</li>
+    <li>Viajar</li>
+  </ul>
+  <h3>Video favorito:</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uYW2Mja9c5c?si=DMQEmmCVa3fTviDV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <h3>Redes Sociales</h3>
+  <table border="1">
+    <tr>
+      <th>Plataforma</th>
+      <th>Enlace</th>
+    </tr>
+    <tr>
+      <td>GitHub</td>
+      <td><a href="https://github.com">github.com</a></td>
+    </tr>
+    <tr>
+      <td>LinkedIn</td>
+      <td><a href="https://linkedin.com">linkedin.com</a></td>
+    </tr>
+  </table>
+
+  <!-- 11. Formulario con validación básica -->
+  <h2>Inicio de sesión</h2>
+  <form>
+    Usuario: <input type="text" name="usuario" required pattern="[A-Za-z0-9]{1,12}"><br>
+    Contraseña: <input type="password" name="password" required><br>
+    <button type="submit">Ingresar</button>
+  </form>
+
+  <!-- 12. Página de productos -->
+  <h2>Productos</h2>
+  <table border="1">
+    <tr>
+      <th>Producto</th>
+      <th>Precio</th>
+      <th>Imagen</th>
+      <th>Acción</th>
+    </tr>
+    <tr>
+      <td>Camisa</td>
+      <td>$450.000</td>
+      <td><img src="https://tse4.mm.bing.net/th?id=OIP.QnbwycBOih4rPybn5TCJzAHaH2&pid=Api&P=0&h=180" alt="Camisa"></td>
+      <td><button>Comprar</button></td>
+    </tr>
+    <tr>
+      <td>Pantalón</td>
+      <td>$320.000</td>
+      <td><img src="https://i1.wp.com/latiendabarrista.com/wp-content/uploads/2019/02/pantaloneta-negra-entrenamiento.jpg?w=600&ssl=1" alt="Pantalón" width="200"></td>
+      <td><button>Comprar</button></td>
+    </tr>
+    <tr>
+      <td>Zapatos</td>
+      <td>$410.000</td>
+      <td><img src="https://tse1.mm.bing.net/th?id=OIP.eXfYOFTNzRDY4LP9SsGfwQHaHa&pid=Api&P=0&h=180" alt="Zapatos"></td>
+      <td><button>Comprar</button></td>
+    </tr>
+  </table>
+
+</body>
+</html>
