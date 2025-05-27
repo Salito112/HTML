@@ -1,0 +1,57 @@
+body{
+    background-color: darksalmon;
+   margin: 0;
+   padding: 0;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+.Tarjeta {
+    padding: 20px;
+}
+
+.Producto-tarjeta{
+    width: 400px;
+    max-width: 90%;
+    background-color: khaki;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Producto-tarjeta:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-producto {
+    width: 50%  ;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.titulo-producto{
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: crimson;
+    font-family: fantasy;
+    text-shadow: 3px 2px 2px #000;
+}
+
+.descripcion-producto{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: brown;
+    font-family: cursive;
+    text-shadow: 2px 1px 1px #666;
+}
+
+.precio{
+    font-family: fantasy;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
